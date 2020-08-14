@@ -16,6 +16,20 @@ body {
     border-radius: 15px;
 }
 
-.best-products .card {
+.products .card {
     border-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb .active {
+    font-weight: bold;
+    color: black;
+}
+
+.btn-dark {
+    border-radius: 10px;
 }

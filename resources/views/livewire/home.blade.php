@@ -15,18 +15,18 @@
                <div class="card-body text-center">
                   <img src="{{ url('assets/liga') }}/{{ $liga->gambar }}" class="img-fluid">
                </div>
-             </div>
+            </div>
          </div>
          @endforeach
       </div>
    </section>
 
-     {{-- BEST PRODUCT  --}}
-     <section class="best-products mt-5 mb-5">
+   {{-- BEST PRODUCT  --}}
+   <section class="products mt-5 mb-5">
       <h3><strong>Best Products</strong></h3>
       <div class="row mt-4">
          @foreach($products as $product)
-         <div class="col">
+         <div class="col-md-3">
             <div class="card">
                <div class="card-body text-center">
                   <img src="{{ url('assets/jersey') }}/{{ $product->gambar }}" class="img-fluid">
@@ -42,7 +42,7 @@
                      </div>
                   </div>
                </div>
-             </div>
+            </div>
          </div>
          @endforeach
       </div>
