@@ -66,7 +66,7 @@ class ProductDetail extends Component
             'product_id' => $this->product->id,
             'pesanan_id' => $pesanan->id,
             'jumlah_pesanan' => $this->jumlah_pesanan,
-            'nameset' => $this->nama ? true : false,
+            'namaset' => $this->nama ? true : false,
             'nama' => $this->nama,
             'nomor' => $this->nomor,
             'total_harga'=> $total_harga
